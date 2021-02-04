@@ -1,0 +1,9 @@
+<suite name="Testng - prueba">
+    <test name="Ejecucion de pruebas">
+
+        <parameter name="specificTag" value="h1"></parameter>
+        <classes>
+            <class name="tests.Practico12.TestngParameters"></class>
+        </classes>
+    </test>
+</suite>
